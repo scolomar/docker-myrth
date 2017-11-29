@@ -23,7 +23,7 @@ services:
         JDBC_USER: mirth
         JDBC_PASS: mirth
       ports:
-        - 8080:8080
+        - 8081:8080
         - 8443:8443
       networks:
         - frontend
